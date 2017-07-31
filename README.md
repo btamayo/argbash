@@ -6,6 +6,8 @@
 
 ![argbash logo](resources/logo/argbash.png)
 
+## What is Argbash?
+
 * Do you write `Bash` scripts that should accept arguments?
 * But they don't since arguments support is a daunting task, because ...
 * `getopt` is discouraged, `getopts` doesn't support long options, there is no widely-accepted `Bash` module to do the task and some solutions don't work on all platforms (Linux, OSX, MSW)...
@@ -26,7 +28,7 @@ Give a `Argbash` a try and stop being terrorized by those pesky arguments! With 
 
 Yes, visit our vintage site and start playing with templates like no tomorrow!
 
-What it is
+## How does Argbash work?
 ----------
 
 Argbash is not a parsing library, but it is rather a code generator that generates a library tailor-made for your script.
@@ -52,9 +54,20 @@ The utility has been inspired by Python's `argparse` and the `shflags` project.
 
 **[Read the docs (latest stable version)](http://argbash.readthedocs.org/en/stable/) for more info**
 
-Requirements
+## Installing
 ------------
 
+### Requirements:
 - `bash` that can work with arrays (most likely `bash >= 3.0`) (the only requirement for *users* - i.e. people that only execute scripts and don't make them)
 - `autom4te` utility that can work with sets (part of `autoconf >= 2.63` suite)
 - basic utilities s.a. `sed`, `grep`, `cat`, `test`.
+
+
+## Contributing
+------------
+
+
+## 
+------------
+
+
